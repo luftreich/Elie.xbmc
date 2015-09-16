@@ -276,8 +276,6 @@ Raadpleeg de lokale wetgeving voordat u deze plugin installeert.</disclaimer>
 	 <website>https://sites.google.com/site/hrmtvxbmcaddon/home</website>
     <email></email>
     <source>https://sites.google.com/site/hrmtvxbmcaddon/home/plugin.video.HRMTV2.zip</source>
-	<ein-link xlink:type="simple"
-   xlink:href="https://sites.google.com/site/hrmtvxbmcaddon/home">wow</ein-link>
 
 
   </extension>
@@ -301,6 +299,7 @@ Raadpleeg de lokale wetgeving voordat u deze plugin installeert.</disclaimer>
    </extension>
 </addon>
 
+<addon id="plugin.video.abc_iview" name="ABC iView" provider-name="Andy Botting" version="1.6.8">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.common.plugin.cache"/>
@@ -1085,6 +1084,38 @@ Watch all your favorite TV Shows and Movies streamed on constant repeat 24/7 fro
   <extension point="xbmc.addon.metadata">
     <summary lang="en"> Enjoy husham.com Lists</summary>
     <description lang="en">Please check out husham.com for latest updates</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Halow"
+       name="[COLOR red]HALOW[COLOR green]LIVE[/COLOR]"
+       version="6.0.9"
+       provider-name="Halow">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="plugin.video.veetle" version="0.3.1" optional="false"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="cloudtv.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">www.facebook.com/Halow Tv</summary>
+    <description lang="en">Halow Live free tv</description>
     <platform>all</platform>
   </extension>
 </addon>

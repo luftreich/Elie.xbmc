@@ -1,0 +1,17 @@
+diff --git a/src/repository.Elie/addon.xml b/src/repository.Elie/addon.xml
+index c70e081..f5c20d1 100644
+--- a/src/repository.Elie/addon.xml
++++ b/src/repository.Elie/addon.xml
+@@ -5,9 +5,9 @@
+         version="7.0.0"
+         provider-name="Elie">
+ 		<extension point="xbmc.addon.repository" name="Elie's addon repository">
+-			<info compressed="false">https://raw.github.com/luftreich/Elie.xbmc/master/addons.xml</info>
+-			<checksum>https://raw.github.com/luftreich/Elie.xbmc/master/addons.xml.md5</checksum>
+-			<datadir zip="true">https://raw.github.com/luftreich/Elie.xbmc/master/plugin_zips</datadir>
++			<info compressed="false">http://192.168.1.20/Elie.xbmc/addons.xml</info>
++			<checksum>http://192.168.1.20/Elie.xbmc/addons.xml.md5</checksum>
++			<datadir zip="true">http://192.168.1.20/Elie.xbmc/plugin_zips</datadir>
+ 		</extension>
+ 		<extension point="xbmc.addon.metadata">
+ 			<summary lang="en">Elie's Addon Repository</summary>
