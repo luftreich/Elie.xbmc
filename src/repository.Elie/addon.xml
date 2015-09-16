@@ -2,7 +2,7 @@
 	<addon 
         id="repository.Elie" 
         name="Elie's Repository" 
-        version="7.0.1"
+        version="7.0.2"
         provider-name="Elie">
 		<extension point="xbmc.addon.repository" name="Elie's addon repository">
 			<info compressed="false">https://raw.github.com/luftreich/Elie.xbmc/master/addons.xml</info>
